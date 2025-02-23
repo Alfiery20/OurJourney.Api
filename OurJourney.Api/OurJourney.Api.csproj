@@ -20,6 +20,13 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OurJourney.Application\OurJourney.Application.csproj" />
+    <ProjectReference Include="..\OurJourney.Infrastructure\OurJourney.Infrastructure.csproj" />
+    <ProjectReference Include="..\OurJourney.Persistence\OurJourney.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
